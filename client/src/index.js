@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import axios from 'axios';
 
-axios.defaults.baseURL="http://localhost:3000";
+axios.defaults.baseURL="https://xpensetracker-piuq.onrender.com";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
